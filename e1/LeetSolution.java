@@ -47,8 +47,6 @@ class Solution {
             Map.Entry<Character, Trie> entry;
             if (!isWord && next.kids.entrySet().iterator().hasNext()) {
                 entry = next.kids.entrySet().iterator().next();
-                System.out.println(shortest.length());
-                System.out.println(shortest);
                 if (next.kids.size() < 2 && lon.length() < shortest.length()) {
                     lon += entry.getKey();
                     next = entry.getValue();
