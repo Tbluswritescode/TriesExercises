@@ -1,6 +1,7 @@
 import java.util.Map;
 import java.util.HashMap;
 
+/*passed leetcode test*/
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         Trie longestCommon = new Trie();
